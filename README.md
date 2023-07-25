@@ -10,12 +10,11 @@ Being preproduction, we can only auth using session authentication with this api
 The `GET` endpoints do not require authentication. I have verified that `GetSession`, `PutAuthLogin` and `PutAuthSignup` all work unauthed (obviously).
 
 ## TODO
-The following endpoints are missing:
-- [ ] GetAuditLogList
-- [ ] GetThread
-- [ ] PutGameBoostGrant (POST)
-
 Various enums need to be documented:
 - [ ] itemType (eg. GetCommentable)
 
-More are definitely present, but this is not a personal priority of mine. Feel free to PR.
+More enums are definitely present, but this is not a personal priority of mine. Feel free to PR.
+
+Additional endpoints may exist, or get added later. Feel free to raise an issue or PR if there is an endpoint missing.
+
+Various attributes are likely missing, feel free to raise issue or PR on those too.

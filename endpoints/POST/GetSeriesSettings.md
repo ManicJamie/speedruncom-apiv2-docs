@@ -1,0 +1,95 @@
+# Parameters
+- seriesId
+
+# Response
+```
+settings
+    name
+    url
+    discordUrl
+    websiteUrl
+    staticAssets[]
+        assetType
+        path
+    staticAssetUpdates[]
+moderatorList[]
+    seriesId
+    userId
+    level
+gameList[]
+    id
+    name
+    url
+    type
+    loadtimes
+    milliseconds
+    igt
+    verification
+    autoVerify
+    requireVideo
+    emulator
+    defaultTimer
+    validTimers[]
+    releaseDate
+    addedDate
+    touchDate
+    coverPath
+    trophy1stPath
+    trophy2ndPath
+    trophy3rdPath
+    runCommentsMode
+    runCount
+    activePlayerCount
+    totalPlayerCount
+    boostReceivedCount
+    boostDistinctDonorsCount
+    rules
+    viewPowerLevel
+    platformIds[str]
+    regionIds[]
+    gameTypeId[]
+    websiteUrl
+    discordUrl
+    defaultView
+    guidePermissionType
+    resourcePermissionType
+    staticAssets[]
+        assetType
+        path
+theme
+    id
+    url
+    primaryColor
+    panelColor
+    panelOpacity
+    navbarColor
+    backgroundColor
+    backgroundFit
+    backgroundPosition
+    backgroundRepeat
+    backgroundScrolling
+    foregroundFit
+    foregrountPosition
+    foregroundRepeat
+    foregroundScrolling
+    touchDate
+    staticAssets[]
+        assetType
+        path
+userList[]
+    id
+    name
+    url
+    powerLevel
+    pronouns[str]
+    areaId
+    color1Id
+    color2Id
+    iconType
+    onlineDate
+    signupDate
+    touchDate
+    staticAssets[]
+        assetType
+        path
+```

@@ -1,9 +1,11 @@
 Get moderation data
 
-# Parameters
+# Required Parameters
 - gameId
 - limit
 - page
+
+# Optional Parameters
 - search
 - verified
 - verifiedById
