@@ -1,8 +1,8 @@
 Gets games moderated by this user
 
-# Parameters
-- includeAll
-- includeGameUrls
+# Optional Parameters
+- includeAll (I can't figure out what this does, maybe games you are no longer mod of?)
+- includeGameUrls[] (i dont know what this is either)
 
 # Response
 ```

@@ -8,6 +8,14 @@ Displayed in various places, including thread comments, (continue)
 7 = Comment
 ```
 
+## Verified
+Run verification status
+```
+0 = Pending
+1 = Verified
+2 = Rejected
+```
+
 ## eventType
 Displayed in audit log
 ```py

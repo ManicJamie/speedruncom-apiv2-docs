@@ -2,7 +2,7 @@ Get moderation data
 
 # Required Parameters
 - gameId
-- limit
+- limit `max: 100`
 - page
 
 # Optional Parameters

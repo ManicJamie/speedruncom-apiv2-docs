@@ -1,7 +1,9 @@
-# Parameters
-- autoverify
+# Required Parameters
 - csrfToken
 - settings (see below)
+
+# Optional Parameters
+- autoverify = False
 
 ## settings
 ```
