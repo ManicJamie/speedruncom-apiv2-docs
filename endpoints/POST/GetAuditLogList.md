@@ -1,4 +1,4 @@
-Gets the audit log (supermod only?)
+Gets the audit log (supermod only)
 
 # Parameters
 - gameId

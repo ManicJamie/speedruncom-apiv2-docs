@@ -5,7 +5,10 @@ This list attempts to document the canonical meanings of various int and string 
 ## itemType
 Displayed in various places, including thread comments, (continue)
 ```
-7 = Comment
+2 = Run
+7 = Thread
+27 = Game news post
+30 = Site news post
 ```
 
 ## Verified
@@ -47,4 +50,9 @@ Part of game info
 0 = RTA
 1 = LRT? (TODO: check)
 2 = IGT
+```
+
+## Ticket type
+```
+5 = Content Report
 ```

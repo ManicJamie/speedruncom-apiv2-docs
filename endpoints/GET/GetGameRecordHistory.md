@@ -8,7 +8,7 @@ Note that parameters gameId and categoryId are not required for a successful res
 - gameId
 - categoryId
 
-# Parameters (some may be opt.)
+# Parameters (optional)
 - values[]
     {variableId, valueIds[]}
 - emulator

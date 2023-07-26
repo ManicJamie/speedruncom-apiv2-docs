@@ -1,6 +1,6 @@
-Updates this user's settings
+Updates a user's settings. NB: Unless you are site staff, only your own userUrl is accessible
 
-# Parameters
+# Required Parameters
 - settings - see below
 - userUrl
 

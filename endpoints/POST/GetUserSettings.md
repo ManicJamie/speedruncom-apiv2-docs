@@ -1,7 +1,7 @@
-Gets this user's settings
+Gets this user's settings. NB that while userUrl is provided to allow selecting other users, presumably only site staff can use this.
 
-# Parameters
-- userUrl `not sure why this is provided, check if it's actually necessary`
+# Required Parameters
+- userUrl
 
 # Response
 ```
