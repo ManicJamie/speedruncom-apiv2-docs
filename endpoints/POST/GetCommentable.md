@@ -1,3 +1,5 @@
+Note that information from this request is a subset of `GetCommentList`.
+
 # Parameters
 - itemId
 - itemType

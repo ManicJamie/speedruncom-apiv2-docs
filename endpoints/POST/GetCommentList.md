@@ -1,7 +1,7 @@
 # Parameters
 - itemId
 - itemType
-- page
+- page = 1
 
 # Response
 ```

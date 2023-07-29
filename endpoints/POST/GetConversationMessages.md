@@ -1,6 +1,6 @@
 # Parameters
 - conversationId
-- markAsRead
+- markAsRead `Opt`
 
 # Response
 ```

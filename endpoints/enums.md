@@ -5,8 +5,9 @@ This list attempts to document the canonical meanings of various int and string 
 ## itemType
 Displayed in various places, including thread comments, (continue)
 ```
+1 = Like? Appears in GetThread.likeList[]
 2 = Run
-7 = Thread
+7 = Thread comment? Thread?
 27 = Game news post
 30 = Site news post
 ```
@@ -42,6 +43,33 @@ Displayed in audit log
 "game-updated"
 "gamerequest-reviewed"
 "level-created"
+```
+
+## type (in Game)
+Not entirely sure. is this ever not "game"?
+```
+"game"
+
+```
+
+## gameTypeIds (list in Game)
+At a guess, to do with subgames
+```
+2 = modded?
+8 = category extensions
+11 (strawberry jam collab)
+```
+
+## type (in Forum)
+```
+0 = front page
+1 = supporter
+2 = game
+```
+
+## runCommentsMode
+```
+1 = disabled
 ```
 
 ## validTimers

@@ -1,8 +1,8 @@
-Gets a thread page
+Gets a thread page. 20 comments per page.
 
 # Parameters
 - id
-- page
+- page `Optional`
 
 # Response
 ```
@@ -28,4 +28,30 @@ commentList[]
     text
     parentId
     deleted
+userList[]
+    id
+    name
+    url
+    powerLevel
+    pronouns[str]
+    areaId
+    color1Id
+    color2Id
+    iconType
+    onlineDate
+    signupDate
+    touchDate
+    staticAssets[]
+        assetType
+        path
+likeList[]
+    itemType
+    itemId
+    userId
+    date
+pagination
+    count
+    page
+    pages
+    per
 ```
