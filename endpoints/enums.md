@@ -84,3 +84,10 @@ Part of game info
 ```
 5 = Content Report
 ```
+
+## level (of Game Moderator)
+```
+-1 = Verifier
+0 = Moderator
+1 = Super Moderator
+```

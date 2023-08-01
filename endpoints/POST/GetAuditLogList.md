@@ -1,7 +1,7 @@
 Gets the audit log (supermod only)
 
 # Parameters
-- gameId
+- gameId OR seriesId
 - eventType = ""
 - page
 

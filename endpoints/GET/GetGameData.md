@@ -1,5 +1,8 @@
 ## Required Parameters
-- gameId
+- gameId OR
+- gameUrl
+
+Also works as POST!
 
 ## Response
 ```
