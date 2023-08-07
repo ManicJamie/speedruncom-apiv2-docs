@@ -24,7 +24,7 @@ gameList[]
     requireVideo
     emulator
     defaultTimer
-    validTimers[]
+    validTimers[int]
     releaseDate
     addedDate
     touchDate
@@ -41,8 +41,8 @@ gameList[]
     rules
     viewPowerLevel
     platformIds[str]
-    regionIds[]
-    gameTypeIds[]
+    regionIds[str]
+    gameTypeIds[int]
     websiteUrl
     discordUrl
     defaultView
