@@ -91,3 +91,10 @@ Part of game info
 0 = Moderator
 1 = Super Moderator
 ```
+
+# networkId (in userSocialConnectionList)
+```
+5 = Discord
+29 = Twitch
+32 = Youtube
+```
