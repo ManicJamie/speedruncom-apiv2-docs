@@ -47,9 +47,8 @@ Displayed in audit log
 
 ## type (in Game)
 Not entirely sure. is this ever not "game"?
-```
+```py
 "game"
-
 ```
 
 ## gameTypeIds (list in Game)
