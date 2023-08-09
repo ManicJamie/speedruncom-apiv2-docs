@@ -32,23 +32,5 @@ playerList[]
     colorAnimate
     areaId
 runList[]
-    id
-    gameId
-    categoryId
-    time
-    timeWithLoads
-    platformId
-    emulator
-    video
-    comment
-    submittedById
-    verified
-    verifiedById
-    date
-    dateSubmitted
-    dateVerified
-    hasSplits
-    issues
-    playerIds[str]
-    valueIds[str]
+    #Run#
 ```

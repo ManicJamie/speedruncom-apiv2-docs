@@ -52,11 +52,20 @@ Not entirely sure. is this ever not "game"?
 ```
 
 ## gameTypeIds (list in Game)
-At a guess, to do with subgames
+(taken from nextjs namespace)
 ```
-2 = modded?
-8 = category extensions
-11 (strawberry jam collab)
+"1": "ROM hack",
+"2": "Modification",
+"3": "Fan game",
+"4": "Web game",
+"5": "Pre-release game",
+"6": "Mobile game",
+"7": "Expansion / DLC",
+"8": "Category extensions",
+"9": "Multiple games",
+"10": "Mini game",
+"11": "Server map",
+"12": "Homebrew game"
 ```
 
 ## type (in Forum)

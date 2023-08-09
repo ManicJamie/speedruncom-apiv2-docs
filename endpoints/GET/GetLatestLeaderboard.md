@@ -10,34 +10,13 @@ seriesId and gameId act like filters a la v1 api, so we can use this to find the
 # Response
 ```
 categories[]
-    id
-    name
-    url
-    pos
-    gameId
-    isMisc
-    isPerLevel
-    numPlayers
-    exactPlayers
-    playerMatchMode
-    timeDirection
-    enforceMs
-    archived
-    rules
+    #Category#
 games[]
     #GameInfo#
 levels[]
-    id
-    gameId
-    name
-    url
-    pos
-    archived
+    #Level#
 platforms[]
-    id
-    name
-    url
-    year
+    #Platform#
 players[]
     id
     name
@@ -48,48 +27,11 @@ players[]
     colorAnimate
     areaId
 regions[]
+    #Region#
 runs[]
-    id
-    gameId
-    categoryId
-    time
-    timeWithLoads
-    platformId
-    emulator
-    video
-    comment
-    submittedById
-    verified
-    verifiedById
-    date
-    dateSubmitted
-    dateVerified
-    hasSplits
-    issues
-    playerIds[str]
-    valueIds[str]
+    #Runs#
 values[]
-    id
-    name
-    url
-    pos
-    variableId
-    isMisc
-    archived
-values[]
-    id
-    name
-    url
-    pos
-    gameId
-    categoryScope
-    categoryId
-    levelScope
-    levelId
-    isMandatory
-    isSubcategory
-    isUserDefined
-    isObsoleting
-    defaultValue
-    archived
+    #Value#
+variables[]
+    #Variable#
 ```

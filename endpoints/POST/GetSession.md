@@ -6,41 +6,9 @@ session
     signedIn
     showAds
     user <OPT: if signedIn>
-        id
-        name
-        url
-        powerLevel
-        pronouns[str]
-        areaId
-        color1Id
-        color2Id
-        iconType
-        onlineDate
-        signupDate
-        touchDate
-        staticAssets[]
-            assetType
-            path
+        #User#
     theme <Opt: if signedIn>
-        id
-        url
-        primaryColor
-        panelColor
-        panelOpacity
-        navbarColor
-        backgroundColor
-        backgroundFit
-        backgroundPosition
-        backgroundRepeat
-        backgroundScrolling
-        foregroundFit
-        foregrountPosition
-        foregroundRepeat
-        foregroundScrolling
-        touchDate
-        staticAssets[]
-            assetType
-            path
+        #Theme#
     powerLevel
     dateFormat
     timeFormat

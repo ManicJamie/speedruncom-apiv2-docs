@@ -19,26 +19,7 @@ settings
     foregroundRepeat
     foregroundScrolling
     staticAssets
-        assetType
-        path
+        #Asset#
 theme
-    id
-    url
-    primaryColor
-    panelColor
-    panelOpacity
-    navbarColor
-    backgroundColor
-    backgroundFit
-    backgroundPosition
-    backgroundRepeat
-    backgroundScrolling
-    foregroundFit
-    foregroundPosition
-    foregroundRepeat
-    foregroundScrolling
-    touchDate
-    staticAssets
-        assetType
-        path
+    #Theme#
 ```

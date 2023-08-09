@@ -69,25 +69,7 @@ userSocialConnectionList[]
 gameList[]
     #GameInfo#
 themeList[]
-    id
-    url
-    primaryColor
-    panelColor
-    panelOpacity
-    navbarColor
-    backgroundColor
-    backgroundFit
-    backgroundPosition
-    backgroundRepeat
-    backgroundScrolling
-    foregroundFit
-    foregrountPosition
-    foregroundRepeat
-    foregroundScrolling
-    touchDate
-    staticAssets[]
-        assetType
-        path
+    #Theme#
 supporterCreditList[] TODO
 supportCodeList[] TODO
 ```

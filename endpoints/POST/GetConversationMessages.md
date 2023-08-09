@@ -24,20 +24,6 @@ messages[]
     text
     date
 users[]
-    id
-    name
-    url
-    powerLevel
-    pronouns[str]
-    areaId
-    color1Id
-    color2Id
-    iconType
-    onlineDate
-    signupDate
-    touchDate
-    staticAssets[]
-        assetType
-        path
+    #User#
 userBlocks[]
 ```

@@ -7,57 +7,32 @@ Also works as POST!
 ## Response
 ```
 game
-    id
-    name
-    url
-    type
-    loadtimes
-    milliseconds
-    igt
-    verification
-    autoVerify
-    requireVideo
-    emulator
-    defaultTimer
-    validTimers[int]
-    releaseDate
+    id: str
+    name: str
+    url: str
+    type: str
+    loadtimes: bool
+    milliseconds: bool
+    igt: bool
+    verification: bool
+    autoVerify: bool
+    requireVideo: bool
+    emulator: int(enum)
+    defaultTimer: int(enum)
+    validTimers[int (enum)]
+    releaseDate: int
 categories[]
-    id
-    name
-    url
-    pos
-    gameId
-    isMisc
-    isPerLevel
-    numPlayers
-    exactPlayers
-    playerMatchMode
-    timeDirection
-    enforceMs
-    archived
-    rules
+    #Category#
 levels[]
-    id
-    gameId
-    name
-    url
-    pos
-    rules
-    archived
+    #Level#
 moderators[]
     gameId
     userId
     level
 platforms[]
-    id
-    name
-    url
-    year
+    #Platform#
 regions[]
-    id
-    name
-    url
-    flag
+    #Region#
 runCounts[]
     gameId
     categoryId
@@ -65,61 +40,11 @@ runCounts[]
     valueId
     count
 theme
-    id
-    url
-    primaryColor
-    panelColor
-    panelOpacity
-    navbarColor
-    backgroundColor
-    backgroundFit
-    backgroundPosition
-    backgroundRepeat
-    backgroundScrolling
-    foregroundFit
-    foregrountPosition
-    foregroundRepeat
-    foregroundScrolling
-    touchDate
-    staticAssets[]
-        assetType
-        path
+    #Theme#
 users[] (just those relevant to the game information)
-    id
-    name
-    url
-    powerLevel
-    pronouns[str]
-    areaId
-    color1Id
-    color2Id
-    iconType
-    onlineDate
-    signupDate
-    touchDate
-    staticAssets[]
-        assetType
-        path
+    #User#
 values[]
-    id
-    name
-    url
-    pos
-    variableId
-    isMisc
-    rules
-    archived
+    #Value#
 variables[]
-    id
-    name
-    url
-    pos
-    gameId
-    categoryScope
-    levelScope
-    isMandatory
-    isSubcategory
-    isUserDefined
-    isObsoleting
-    archived
+    #Variable#
 ```

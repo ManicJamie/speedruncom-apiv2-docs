@@ -17,40 +17,22 @@ Parameters are wrapped inside `params`, except `page`.
 # Response
 ```
 runList [
-    id
-    gameId
-    categoryId
-    time (seconds)
-    platformId
-    emulator
-    video
-    comment
-    submittedById
-    verified
-    verifiedById
-    date
-    dateVerified
-    hasSplits
-    obsolete
-    place
-    issues
-    playersIds []
-    valueIds []
+    #Run#
 ]
 playerList [
-    id
-    name
-    url
-    powerLevel (appears to be site admin? default 1, Meta is 4)
-    color1Id
-    color2Id
-    colorAnimate
-    areaId
-    isSupporter
+    id: str
+    name: str
+    url: str
+    powerLevel: int (appears to be site admin? default 1, Meta is 4)
+    color1Id: str
+    color2Id: str
+    colorAnimate: int
+    areaId: str
+    ?isSupporter
 ]
 pagination
-    count
-    page
-    pages
-    per
+    count: int
+    page: int
+    pages: int
+    per: int
 ```

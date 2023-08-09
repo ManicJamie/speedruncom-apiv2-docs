@@ -34,21 +34,7 @@ likeList[]
     userId
     date
 userList[]
-    id
-    name
-    url
-    powerLevel
-    pronouns[str]
-    areaId
-    color1Id
-    color2Id
-    iconType
-    onlineDate
-    signupDate
-    touchDate
-    staticAssets[]
-        assetType
-        path
+    #User#
 pagination
     count
     page

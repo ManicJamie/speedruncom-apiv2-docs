@@ -13,40 +13,18 @@ Get moderation data
 # Response
 ```
 categories[]
-    id
-    name
-    url
-    pos
-    gameId
-    isMisc
-    isPerLevel
-    numPlayers
-    exactPlayers
-    playerMatchMode
-    timeDirection
-    enforceMs
-    archived
-    rules
+    #Category#
 games[]
     #GameInfo#
 levels[]
-    id
-    gameId
-    name
-    url
-    pos
-    rules
-    archived
+    #Level
 pagination
     count
     page
     pages
     per
 platforms[]
-    id: str
-    name: str
-    url: str
-    year: int
+    #Platform#
 players[]
     id: str
     name: str
@@ -58,25 +36,5 @@ players[]
 regions[]
     # not documented
 runs[]
-    id: str
-    gameId: str
-    levelId: Optional[str]
-    categoryId: str
-    time: decimal
-    timeWithLoads: decimal
-    platformId: str
-    emulator: bool
-    video: str
-    comment: str
-    submittedById: str
-    verified: int
-    date: int
-    dateSubmitted: int
-    hasSplits: bool
-    obsolete: bool
-    place: int
-    estimated: bool
-    issues: ? (null?)
-    playerids[str]
-    valueIds[str]
+    #Run#
 ```

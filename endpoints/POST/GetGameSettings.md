@@ -47,41 +47,9 @@ moderatorList[]
     userId
     level
 theme
-    id
-    url
-    primaryColor
-    panelColor
-    panelOpacity
-    navbarColor
-    backgroundColor
-    backgroundFit
-    backgroundPosition
-    backgroundRepeat
-    backgroundScrolling
-    foregroundFit
-    foregrountPosition
-    foregroundRepeat
-    foregroundScrolling
-    touchDate
-    staticAssets[]
-        assetType
-        path
+    #Theme#
 gameList[]
     #GameInfo#
 userList[]
-    id
-    name
-    url
-    powerLevel
-    pronouns[str]
-    areaId
-    color1Id
-    color2Id
-    iconType
-    onlineDate
-    signupDate
-    touchDate
-    staticAssets[]
-        assetType
-        path
+    #User#
 ```

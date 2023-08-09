@@ -10,6 +10,18 @@ Certain endpoints require a `csrfToken`; this can be obtained from `GetSession` 
 
 The `GET` endpoints do not require authentication. I have verified that `GetSession`, `PutAuthLogin` and `PutAuthSignup` all work unauthed (obviously). Some (maybe all? untested) GET endpoints also work as POST, and some are requested with each method interchangeably by the website.
 
+# Reading these docs
+Nothing here is very consistent, but I have done my best to help where needed.
+
+Where keys are only sometimes present, the key name is prefixed by a ?. 
+Where fields may have a null value, the type is prefixed with a ?.
+
+Note [enums](/endpoints/enums.md) and [structures](/endpoints/structures.md) are frequently referenced. 
+
+Structures have had their fields replaced with #Struct_name# - if an apparent structure is not replaced, be careful! There may be additional (or missing) fields you haven't seen.
+
+Enums are sparsely documented, listed in [enums](/endpoints/enums.md) by their key name, not a logical name. Wrappers may wish to edit these to more sensible names in places. Note they may be missing potential values - be careful when using!
+
 ## TODO
 Remaining endpoints that are undocumented:
 - PutUserSupporterNewSubscription
