@@ -7,6 +7,8 @@ Get support hub tickets.
 - ticketIds = [str] - retrieve a specific (set of) ticket(s)
 - types = []
 
+- page
+
 # Response
 ```
 ticketList[]

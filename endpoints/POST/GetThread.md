@@ -1,5 +1,7 @@
 Gets a thread page. 20 comments per page.
 
+WARNING: This endpoint's pagination 404s if you request a page that doesn't exist, rather than just going to maxpage like all other paginated objects!
+
 # Parameters
 - id
 - page `Optional`
