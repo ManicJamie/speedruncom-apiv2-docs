@@ -175,8 +175,19 @@ NOT the same as ticket type!
 ```
 
 # networkId (in userSocialConnectionList)
+Deprecated values still exist on the site, but are not visible on the website or settable by users anymore
 ```
+3 = Bilibili
 5 = Discord
+8 = Facebook
+11 = Instagram
+15 = Niconico
+18 = Reddit
 29 = Twitch
+30 = Twitter
+31 = Custom URL
 32 = Youtube
+(deprecated)
+13 = Mixer
+22 = splits.io
 ```
