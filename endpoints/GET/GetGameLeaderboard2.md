@@ -1,8 +1,8 @@
 Parameters are wrapped inside `params`, except `page`.
 
 ## Required parameters:
-- gameID
-- categoryID
+- gameId
+- categoryId
 
 ## Optional parameters
 - values[] TODO: document value structure
