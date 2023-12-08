@@ -12,7 +12,7 @@ path: str
 ```
 
 ## GameInfo
-GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets
+GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun
 ```
 id: str
 name: str
@@ -55,7 +55,7 @@ staticAssets[]
 ```
 
 # Category
-GetGameData, GetLatestLeaderboard, GetModerationRuns
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun
 ```
 id: str
 name: str
@@ -74,7 +74,7 @@ rules: str
 ```
 
 # Level
-GetGameData, GetLatestLeaderboard, GetModerationRuns
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun
 ```
 id: str
 gameId: str
@@ -86,7 +86,7 @@ archived: bool
 ```
 
 # Platform
-GetGameData, GetLatestLeaderboard, GetModerationRuns
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun
 ```
 id: str
 name: str
@@ -94,8 +94,21 @@ url: str
 year: int
 ```
 
+# Player
+GetRun
+```
+id: str
+name: str
+url: str
+powerLevel: int
+color1Id: str
+color2Id: str
+colorAnimate: int
+areaId: str
+```
+
 # Region
-GetGameData, GetLatestLeaderboard
+GetGameData, GetLatestLeaderboard, GetRun
 ```
 id: str
 name: str
@@ -104,17 +117,19 @@ flag: str
 ```
 
 # Run
-GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns
+GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns, GetRun
 ```
 id: str
 gameId: str
+levelId: str
 categoryId: str
-?time: int
-?timeWithLoads: int
-?(another for IGT?) : int
+?time: int|float
+?timeWithLoads: int|float
+?(another for IGT?) : int|float
 ?enforceMs: bool
 platformId: str
 emulator: bool
+regionId: str
 video: str
 comment: str
 submittedById: str
@@ -156,7 +171,7 @@ staticAssets[]
 ```
 
 # Variable
-GetLatestLeaderboard
+GetLatestLeaderboard, GetRun
 ```
     id: str
     name: str
@@ -177,7 +192,7 @@ GetLatestLeaderboard
 ```
 
 # Value
-GetLatestLeaderboard
+GetLatestLeaderboard, GetRun
 ```
 id: str
 name: str
@@ -190,7 +205,7 @@ archived: bool
 ```
 
 # User
-GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets
+GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun
 ```
 id: str
 name: str
