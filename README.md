@@ -31,6 +31,13 @@ Various enums need to be documented:
 
 More enums are definitely present, but this is not a personal priority of mine. Feel free to PR.
 
+The following endpoints were found via brute force and not through use on the site, and as such may be missing parameters. Ticked endpoints have sufficient documentation for use.
+[x] - GetArticleList
+[x] - GetHomeSummary
+[x] - GetGameList
+[ ] - GetChallengeList (appears to require site mod?)
+[x] - GetSeriesList 
+
 Additional endpoints may exist, or get added later. Feel free to raise an issue or PR if there is an endpoint missing.
 
 Various attributes are likely missing, feel free to raise issue or PR on those too.
