@@ -43,7 +43,7 @@ runsCommentsMode: int
 ```
 
 ## GameInfo
-GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun, GetUserLeaderboard
+GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun, GetUserLeaderboard, GetStreamList
 ```
 id: str
 name: str
@@ -237,7 +237,7 @@ archived: bool
 ```
 
 # User
-GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun, GetUserLeaderboard
+GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun, GetUserLeaderboard, GetStreamList
 ```
 id: str
 name: str
