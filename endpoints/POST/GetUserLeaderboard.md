@@ -36,6 +36,8 @@ userProfile
             name: str
             sortType: int
             gameIds[str]
+    ?featuredFullRunId: str
+    ?featuredLevelRunId: str
 users[]  // always empty
     ???
 values[]
