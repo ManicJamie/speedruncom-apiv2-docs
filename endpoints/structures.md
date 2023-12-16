@@ -11,8 +11,39 @@ assetType: str
 path: str
 ```
 
+## Challenge
+GetUserLeaderboard
+```
+id: str
+name: str
+url: str
+gameId: str
+createDate: int
+updateDate: int
+startDate: int
+endDate: int
+state: int
+description: str
+rules: str
+numPlayers: int
+exactPlayers: int
+playerMatchMode: int
+timeDirections: int
+enforceMs: bool
+coverImagePath: str
+contest: bool
+contestRules: str
+prizeConfig
+    prizePool: int
+    corrency: str
+    prizes[]
+        place: int
+        amount: int
+runsCommentsMode: int
+```
+
 ## GameInfo
-GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun
+GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun, GetUserLeaderboard
 ```
 id: str
 name: str
@@ -55,7 +86,7 @@ staticAssets[]
 ```
 
 # Category
-GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
 ```
 id: str
 name: str
@@ -74,7 +105,7 @@ rules: str
 ```
 
 # Level
-GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
 ```
 id: str
 gameId: str
@@ -86,7 +117,7 @@ archived: bool
 ```
 
 # Platform
-GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
 ```
 id: str
 name: str
@@ -95,7 +126,7 @@ year: int
 ```
 
 # Player
-GetRun
+GetRun, GetUserLeaderboard
 ```
 id: str
 name: str
@@ -108,7 +139,7 @@ areaId: str
 ```
 
 # Region
-GetGameData, GetLatestLeaderboard, GetRun
+GetGameData, GetLatestLeaderboard, GetRun, GetUserLeaderboard
 ```
 id: str
 name: str
@@ -117,12 +148,13 @@ flag: str
 ```
 
 # Run
-GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns, GetRun
+GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
 ```
 id: str
 gameId: str
-levelId: str
-categoryId: str
+?levelId: str
+?categoryId: str
+?challengeId: str
 ?time: int|float
 ?timeWithLoads: int|float
 ?(another for IGT?) : int|float
@@ -171,7 +203,7 @@ staticAssets[]
 ```
 
 # Variable
-GetLatestLeaderboard, GetRun
+GetLatestLeaderboard, GetRun, GetUserLeaderboard
 ```
     id: str
     name: str
@@ -192,7 +224,7 @@ GetLatestLeaderboard, GetRun
 ```
 
 # Value
-GetLatestLeaderboard, GetRun
+GetLatestLeaderboard, GetRun, GetUserLeaderboard
 ```
 id: str
 name: str
@@ -205,7 +237,7 @@ archived: bool
 ```
 
 # User
-GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun
+GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun, GetUserLeaderboard
 ```
 id: str
 name: str
