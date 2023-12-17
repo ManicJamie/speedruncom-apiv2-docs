@@ -1,7 +1,8 @@
 Get list of live runners
 
 ## Optional Parameters
-Bruteforced, N/A
+seriesId
+Bruteforced, more may be present
 
 # Response
 ```
