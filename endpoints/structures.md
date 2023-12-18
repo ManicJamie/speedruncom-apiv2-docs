@@ -43,7 +43,7 @@ runsCommentsMode: int
 ```
 
 ## GameInfo
-GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun, GetUserLeaderboard, GetStreamList
+GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun, GetUserLeaderboard, GetStreamList, GetGameSummary
 ```
 id: str
 name: str
@@ -86,7 +86,7 @@ staticAssets[]
 ```
 
 # Category
-GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard, GetGameLevelSummary
 ```
 id: str
 name: str
@@ -148,7 +148,7 @@ flag: str
 ```
 
 # Run
-GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
+GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard, GetGameLevelSummary
 ```
 id: str
 gameId: str
@@ -180,7 +180,7 @@ valueIds[str]
 ```
 
 # Theme
-GetGameSettings, GetSeriesSettings, GetSession, GetThemeSettings, GetUserSettings
+GetGameSettings, GetSeriesSettings, GetSession, GetThemeSettings, GetUserSettings, GetGameSummary
 ```
 id: str
 url: str
@@ -237,7 +237,7 @@ archived: bool
 ```
 
 # User
-GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun, GetUserLeaderboard, GetStreamList
+GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun, GetUserLeaderboard, GetStreamList, GetGuideList, GetResourceList
 ```
 id: str
 name: str

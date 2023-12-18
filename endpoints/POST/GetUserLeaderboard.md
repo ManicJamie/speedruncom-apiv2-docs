@@ -1,6 +1,7 @@
-## Optional Parameters
-Bruteforced
-userID: str
+## Required Parameters
+- userID: str
+
+_Bruteforced, other parameters may exist_
 
 # Response
 ```
