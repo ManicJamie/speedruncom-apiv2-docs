@@ -37,8 +37,9 @@ The following endpoints were found via brute force and not through use on the si
 [x] - GetGameList
 [ ] - GetChallengeList (appears to require site mod?)
 [x] - GetSeriesList 
-[ ] - GetNews
-[ ] - GetThreadList
+[x] - GetNews
+[x] - GetNewsList
+[x] - GetThreadList
 [x] - GetGuideList
 [x] - GetResourceList
 [x] - GetGameSummary

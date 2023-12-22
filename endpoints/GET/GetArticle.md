@@ -2,7 +2,7 @@
 - id OR
 - slug
 
-_Bruteforced, other parameters may exist
+_Bruteforced, other parameters may exist_
 
 # Response
 ```
