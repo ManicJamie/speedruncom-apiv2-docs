@@ -1,5 +1,5 @@
 ## Required Parameters
-- userID: str
+- userId: str
 
 _Bruteforced, other parameters may exist_
 
