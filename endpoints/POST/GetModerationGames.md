@@ -1,8 +1,8 @@
 Gets games moderated by this user
 
 # Optional Parameters
-- includeAll (I can't figure out what this does, maybe games you are no longer mod of?)
-- includeGameUrls[] (i dont know what this is either)
+- includeAll - boolean - when logged in as an Admin, this will return all of the site's games
+- includeGameUrls[] - array of game URLs, unsure as to what this does
 
 # Response
 ```
