@@ -4,6 +4,8 @@ This API is pre-production, subject to change and, more importantly, not directl
 
 Further, this documentation is Very Incomplete and Very Bad. I may make it better, but I assume if you're using this API you probably know enough about what you're doing that I don't need to document all potential errors and workflows.
 
+Note that dates returned from the API are typically UNIX timestamps, whereas date parameters (eg. dateFrom and dateTo) are typically strings (`yyyy-mm-dd`).
+
 ## Authentication
 Being preproduction, we can only auth using session authentication with this api - we must call `PutAuthLogin` & save the returned cookie for future calls. Note that if you want to use verifier/moderator endpoints, you must go through 2fa to login.
 Certain endpoints require a `csrfToken`; this can be obtained from `GetSession` when logged in.
@@ -35,7 +37,6 @@ The following endpoints were found via brute force and not through use on the si
 - [x] GetArticleList
 - [x] GetHomeSummary
 - [x] GetGameList
-- [ ] GetChallengeList (appears to require site mod?)
 - [x] GetSeriesList 
 - [x] GetNews
 - [x] GetNewsList
@@ -45,6 +46,9 @@ The following endpoints were found via brute force and not through use on the si
 - [x] GetGameSummary
 - [x] GetForumList
 - [x] GetArticle
+- [x] GetChallenge
+- [ ] GetChallengeLeaderboard
+- [ ] GetChallengeList (appears to require site mod?)
 
 Additional endpoints may exist, or get added later. Feel free to raise an issue or PR if there is an endpoint missing.
 

@@ -62,9 +62,9 @@ releaseDate: int
 addedDate: int
 touchDate: int
 coverPath: str
-trophy1stPath: str
-trophy2ndPath: str
-trophy3rdPath: str
+?trophy1stPath: str
+?trophy2ndPath: str
+?trophy3rdPath: str
 runCommentsMode: int (enum?)
 runCount: int
 activePlayerCount: int
