@@ -7,13 +7,16 @@ Parameters are wrapped inside `params`, except `page`.
 - categoryId
 
 ## Optional parameters
-- values[] TODO: document value structure
+- values[]
+    - Consists of objects containing `variableId` and a list of `valueIds`.
 - video `0 = any, 1 = present, 2 = missing`
 - verified
 - timer
 - obsolete
 - platformIds[]
 - regionIds[]
+- dateFrom: str
+- dateTo: str
 - page
 
 # Response
