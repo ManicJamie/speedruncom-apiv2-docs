@@ -22,20 +22,21 @@ createDate: int
 updateDate: int
 startDate: int
 endDate: int
-state: int
+state: int (enum)
 description: str
 rules: str
 numPlayers: int
 exactPlayers: int
-playerMatchMode: int
+playerMatchMode: int (enum)
 timeDirections: int
 enforceMs: bool
 coverImagePath: str
 contest: bool
 contestRules: str
+runCommentsMode: int (enum)
 prizeConfig
     prizePool: int
-    corrency: str
+    currency: str
     prizes[]
         place: int
         amount: int
