@@ -23,7 +23,7 @@ settings
         minute: int
         second: int
         millisecond: int
-    platformId: int (enum?)
+    platformId: str
     emulator: bool
     video: str
     comment: str
