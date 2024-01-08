@@ -1,0 +1,99 @@
+## Required Parameters
+- gameId
+
+_Bruteforced, other parameters may be present_
+
+# Response
+```
+game
+    #GameInfo#
+gameBoosts[]
+    id
+    createdAt
+    updatedAt
+    gameId
+    donorUserId
+    anonymous
+    recipientUserIds
+gameModerators[]
+    gameId
+    userId
+    level
+forum
+    id
+    name
+    url
+    description
+    type
+    threadCount
+    postCount
+    lastPostId
+    lastPostDate
+    lastPostUserId
+    touchDate
+newsList[]
+    id
+    gameId
+    userId
+    title
+    body
+    dateSubmitted
+gameStats
+    gameId
+    totalRuns
+    totalRunsFG
+    totalRunsIL
+    totalRunTime
+    recentRuns
+    recentRunsFG
+    recentRunsIL
+    totalPlayers
+    activePlayers
+    followers
+    guides
+    resources
+stats
+    // Same as above, appears to be a mistake
+relatedGames[]
+    #GameInfo# 
+seriesList[]
+    id
+    name
+    url
+    addedDate
+    touchDate
+    websiteUrl
+    discordUrl
+    runCount
+    activePlayerCount
+    totalPlayerCount
+    officialGameCount
+    staticAssets[]
+        #Asset#
+theme
+    #Theme#
+threadList[]
+    id
+    name
+    gameId
+    forumId
+    userId
+    replies
+    created
+    lastCommentId
+    lastCommentUserId
+    lastCommentDate
+    sticky
+    locked
+users[]
+    #User# 
+challengeList[] // Undocumented
+challengeCount
+guideCount
+levelCount
+newsCount
+relatedCount
+resourceCount
+streamCount
+threadCount
+```

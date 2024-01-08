@@ -93,6 +93,14 @@ Not entirely sure. is this ever not "game"?
 2 = game
 ```
 
+## type (in Resource)
+```
+1 = Tool
+2 = Save
+3 = Splits
+4 = Patch
+```
+
 ## runCommentsMode
 ```
 1 = disabled

@@ -22,20 +22,21 @@ createDate: int
 updateDate: int
 startDate: int
 endDate: int
-state: int
+state: int (enum)
 description: str
 rules: str
 numPlayers: int
 exactPlayers: int
-playerMatchMode: int
+playerMatchMode: int (enum)
 timeDirections: int
 enforceMs: bool
 coverImagePath: str
 contest: bool
 contestRules: str
+runCommentsMode: int (enum)
 prizeConfig
     prizePool: int
-    corrency: str
+    currency: str
     prizes[]
         place: int
         amount: int
@@ -43,7 +44,7 @@ runsCommentsMode: int
 ```
 
 ## GameInfo
-GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun, GetUserLeaderboard, GetStreamList
+GetSearch, GetLatestLeaderboard, GetForumList, GetGameSettings, GetModerationGames, GetModerationRuns, GetSeriesSettings, GetSession, GetUserSettings, PutGame, GetTickets, GetRun, GetUserLeaderboard, GetStreamList, GetGameSummary
 ```
 id: str
 name: str
@@ -62,9 +63,9 @@ releaseDate: int
 addedDate: int
 touchDate: int
 coverPath: str
-trophy1stPath: str
-trophy2ndPath: str
-trophy3rdPath: str
+?trophy1stPath: str
+?trophy2ndPath: str
+?trophy3rdPath: str
 runCommentsMode: int (enum?)
 runCount: int
 activePlayerCount: int
@@ -86,7 +87,7 @@ staticAssets[]
 ```
 
 # Category
-GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
+GetGameData, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard, GetGameLevelSummary
 ```
 id: str
 name: str
@@ -148,7 +149,7 @@ flag: str
 ```
 
 # Run
-GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard
+GetGameLeaderboard2, GetGameRecordHistory, GetLatestLeaderboard, GetModerationRuns, GetRun, GetUserLeaderboard, GetGameLevelSummary
 ```
 id: str
 gameId: str
@@ -180,7 +181,7 @@ valueIds[str]
 ```
 
 # Theme
-GetGameSettings, GetSeriesSettings, GetSession, GetThemeSettings, GetUserSettings
+GetGameSettings, GetSeriesSettings, GetSession, GetThemeSettings, GetUserSettings, GetGameSummary
 ```
 id: str
 url: str
@@ -237,7 +238,7 @@ archived: bool
 ```
 
 # User
-GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun, GetUserLeaderboard, GetStreamList
+GetGameData, GetSearch, GetCommentList, GetConversationMessages, GetConversations, GetForumList, GetGameSettings, GetRunSettings, GetSeriesSettings, GetSession, GetThread, GetTickets, GetRun, GetUserLeaderboard, GetStreamList, GetGuideList, GetResourceList, GetNewsList
 ```
 id: str
 name: str

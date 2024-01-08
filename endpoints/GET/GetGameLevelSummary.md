@@ -1,3 +1,5 @@
+Gets the summary shown on the "Level" page, with the top 3 from each level in a category.
+
 Parameters are wrapped inside `params`, except `page`.
 
 ## Required parameters:
@@ -11,31 +13,25 @@ Parameters are wrapped inside `params`, except `page`.
 - verified
 - timer
 - obsolete
-- platformIds[str]
-- regionIds[str]
+- platformIds[]
+- regionIds[]
 - dateFrom: str
 - dateTo: str
 - page
 
 # Response
 ```
-runList [
+category
+    #Category#
+runList[]
     #Run#
-]
-playerList [
+playerList[]
     id: str
     name: str
     url: str
-    powerLevel: int (appears to be site admin? default 1, Meta is 4)
+    powerLevel: int (enum)
     color1Id: str
     color2Id: str
-    colorAnimate: int
+    colorAnimate: int (enum)
     areaId: str
-    ?isSupporter
-]
-pagination
-    count: int
-    page: int
-    pages: int
-    per: int
 ```

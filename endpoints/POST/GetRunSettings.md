@@ -4,23 +4,33 @@
 # Response
 ```
 settings
-    runId
-    gameId
-    categoryId
+    runId: str
+    gameId: str
+    categoryId: str
     playerNames[str]
-    time
-        hour
-        minute
-        second
-        millisecond
-    platformId
-    emulator
-    video
-    comment
-    date
+    ?time
+        hour: int
+        minute: int
+        second: int
+        millisecond: int
+    ?timeWithloads
+        hour: int
+        minute: int
+        second: int
+        millisecond: int
+    ?igt
+        hour: int
+        minute: int
+        second: int
+        millisecond: int
+    platformId: str
+    emulator: bool
+    video: str
+    comment: str
+    date: int
     values[]
-        variableId
-        valueId
+        variableId: str
+        valueId: str
 users[]
     #User#
 ```

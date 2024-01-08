@@ -1,7 +1,8 @@
 Get list of live runners
 
 ## Optional Parameters
-seriesId
+- seriesId
+- gameId
 Bruteforced, more may be present
 
 # Response
