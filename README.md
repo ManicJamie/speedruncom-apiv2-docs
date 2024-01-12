@@ -47,7 +47,7 @@ The following endpoints were found via brute force and not through use on the si
 - [x] GetForumList
 - [x] GetArticle
 - [x] GetChallenge
-- [ ] GetChallengeLeaderboard
+- [x] GetChallengeLeaderboard
 - [ ] GetChallengeList (appears to require site mod?)
 - [ ] GetChallengeRuns
 - [x] GetChallengeRun
