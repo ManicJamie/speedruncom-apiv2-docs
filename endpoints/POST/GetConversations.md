@@ -15,6 +15,12 @@ participants[]
     userId
     joinedDate
     leftDate
+systemMessages[]
+    id
+    userId
+    date
+    text
+    read
 users[]
     #User#
 ```

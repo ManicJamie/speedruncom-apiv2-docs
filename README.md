@@ -24,6 +24,11 @@ Structures have had their fields replaced with #Struct_name# - if an apparent st
 
 Enums are sparsely documented, listed in [enums](/endpoints/enums.md) by their key name, not a logical name. Wrappers may wish to edit these to more sensible names in places. Note they may be missing potential values - be careful when using!
 
+# Implementations
+## Libraries
+- [speedruncompy](https://github.com/ManicJamie/speedruncompy)
+## Applications
+
 ## TODO
 Remaining endpoints that are undocumented:
 - PutUserSupporterNewSubscription
@@ -47,7 +52,7 @@ The following endpoints were found via brute force and not through use on the si
 - [x] GetForumList
 - [x] GetArticle
 - [x] GetChallenge
-- [ ] GetChallengeLeaderboard
+- [x] GetChallengeLeaderboard
 - [ ] GetChallengeList (appears to require site mod?)
 - [ ] GetChallengeRuns
 - [x] GetChallengeRun

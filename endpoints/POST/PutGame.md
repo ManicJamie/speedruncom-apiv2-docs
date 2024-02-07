@@ -4,7 +4,7 @@ Creates a game (available to series supermods for games within a series)
 - name: str
 - releaseDate: int
 - gameTypeIds[] (usually empty)
-- seriedId: str
+- seriesId: str
 
 # Response
 ```
