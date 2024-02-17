@@ -2,10 +2,12 @@ Get support hub tickets.
 
 # Parameters (select one?)
 - queues = []
-- requestorIds = [str] - appears to be necessary?
+- requestorIds = [str] - with this empty, it returns all tickets. Only admins have access, since this is used on their admin console
 - statuses = []
 - ticketIds = [str] - retrieve a specific (set of) ticket(s)
 - types = []
+- page = int - pagination for the admin console
+- limit = int - pagination for the admin console
 
 - page
 
@@ -20,6 +22,13 @@ ticketList[]
     dateSubmitted
     metadata = str (json structure may be per-type)
 ticketNoteList[]
+    id
+    ticketId
+    readerId
+    dateSubmitted
+    note
+    isMessage
+    isRead
 pagination
     count
     page = 1
