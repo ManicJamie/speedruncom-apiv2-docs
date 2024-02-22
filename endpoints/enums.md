@@ -7,11 +7,27 @@ Further enums have been implemented in [speedruncompy/enums.py](https://github.c
 ## itemType
 Displayed in various places, including thread comments, (continue)
 ```
-1 = Like? Appears in GetThread.likeList[]
-2 = Run
-7 = Thread comment? Thread?
-27 = Game news post
-30 = Site news post
+Unknown = 0
+Article = 30
+Comment = 1
+Run = 2
+Game = 3
+Guide = 4
+Resource = 5
+User = 6
+Thread = 7
+GameMod = 8
+Category = 9
+Level = 10
+GameRequest = 11
+News = 27
+GameBoostToken = 28
+GameBoost = 29
+Ticket = 22
+TicketNote = 23
+UserFollower = 31
+Challenge = 32
+ChallengeRun = 33
 ```
 
 ## Verified
@@ -183,7 +199,6 @@ NOT the same as ticket type!
 ```
 
 # networkId (in userSocialConnectionList)
-Deprecated values still exist on the site, but are not visible on the website or settable by users anymore
 ```
 3 = Bilibili
 5 = Discord
@@ -193,9 +208,34 @@ Deprecated values still exist on the site, but are not visible on the website or
 18 = Reddit
 29 = Twitch
 30 = Twitter
-31 = Custom URL
+31 = Website
 32 = Youtube
-(deprecated)
+```
+
+Deprecated values are not visible on the website or settable by users anymore
+Deprecated values:
+```
+1 = Askfm
+2 = Battlenet
+4 = Deviantart
+6 = Douyu
+7 = Duolingo
+9 = Googleplus
+10 = Gpodcasts
+12 = Itunes
 13 = Mixer
-22 = splits.io
+14 = Mmrta
+16 = Patreon
+17 = Pinterest
+19 = Smashcast
+20 = Snapchat
+21 = Soundcloud
+22 = Splitsio
+23 = Spotify
+24 = Spotifyshow
+25 = Srl
+26 = Steam
+27 = Stitcher
+28 = Tumblr
+33 = Zsr
 ```

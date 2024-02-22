@@ -1,4 +1,4 @@
-Gets this user's notifications
+Gets the user's notifications
 
 # Parameters
 - limit
