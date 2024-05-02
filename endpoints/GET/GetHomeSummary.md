@@ -5,7 +5,7 @@ Bruteforced, N/A
 
 # Response
 ```
-stream
+?stream
     id
     gameId
     url

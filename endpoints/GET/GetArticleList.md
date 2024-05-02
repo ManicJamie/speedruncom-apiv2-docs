@@ -1,5 +1,6 @@
 ## Optional Parameters
-Bruteforced, N/A
+- limit <= 500 = 500
+Bruteforced
 
 # Response
 ```
