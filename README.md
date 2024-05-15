@@ -6,6 +6,12 @@ Further, this documentation is Very Incomplete and Very Bad. I may make it bette
 
 Note that dates returned from the API are typically UNIX timestamps, whereas date parameters (eg. dateFrom and dateTo) are typically strings (`yyyy-mm-dd`).
 
+## WARNING: Outdated!
+
+For automation purposes (and that these docs are inconsistent and bad) I have largely moved documentation to inline in [speedruncompy](https://github.com/ManicJamie/speedruncompy). These types are more up-to-date & actively verified through automated testing, so are much more trustworthy.
+
+_These docs will be updated with full type info when I figure out sphinx-autodoc, but for now you can find everything you need by ctrl-f-ing `endpoints.py`, `datatypes/defs.py` and `responses.py`._
+
 ## Authentication
 Being preproduction, we can only auth using session authentication with this api - we must call `PutAuthLogin` & save the returned cookie for future calls. Note that if you want to use verifier/moderator endpoints, you must go through 2fa to login.
 Certain endpoints require a `csrfToken`; this can be obtained from `GetSession` when logged in.
