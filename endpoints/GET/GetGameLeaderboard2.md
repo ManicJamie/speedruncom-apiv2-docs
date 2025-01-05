@@ -7,15 +7,15 @@ Parameters are wrapped inside `params`, except `page`.
 ## Optional parameters
 - values[]
     - Consists of objects containing `variableId` and a list of `valueIds`.
-- video `0 = any, 1 = present, 2 = missing`
-- verified
+- video (`0 = optional, 1 = required, 2 = missing`)
+- verified (`0 = pending, 1 = verified, 2 = rejected`)
 - timer
-- obsolete
+- obsolete (`0 = hidden, 1 = shown, 2 = exclusive`)
 - platformIds[str]
 - regionIds[str]
 - dateFrom: str
 - dateTo: str
-- page
+- page: int
 
 # Response
 ```
